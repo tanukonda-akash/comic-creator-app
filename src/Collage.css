@@ -1,0 +1,43 @@
+/* Collage.css */
+
+.panel-input {
+    width: 40%;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panel-input form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .panel-input label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .panel-input textarea {
+    height: 60px; /* Decreased height */
+    margin-bottom: 10px; /* Adjusted margin */
+    padding: 8px;
+    border: none; /* Removed border */
+    border-radius: 4px;
+    overflow: hidden; /* Hidden overflow */
+  }
+  
+  .panel-input button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .panel-input button:hover {
+    background-color: #45a049;
+  }
+  

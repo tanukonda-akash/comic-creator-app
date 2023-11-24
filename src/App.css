@@ -1,0 +1,68 @@
+/* App.css */
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.form-section {
+  width: 45%; /* Adjust the width as needed */
+}
+
+.panel-input form {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-input label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3px;
+}
+
+.panel-text {
+  height: 50px; /* Adjust the height as needed */
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.comic-section {
+  width: 45%; /* Adjust the width as needed */
+}
+
+.preview {
+  margin-top: 20px;
+}
+
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 640px;
+  gap: 0; /* Adjust the gap between images */
+}
+
+.collage img {
+  flex: 1 0 calc(20% - 10px);
+ max-width:100%; /* Adjust the width and gap calculation as needed */
+  height: auto;
+  max-height: calc(200px - 10px);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.formtitle{
+font-size: 20px;
+}
